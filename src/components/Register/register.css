@@ -1,0 +1,29 @@
+.reApp {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: linear-gradient(79deg, rgb(75, 147, 255), rgb(75, 189, 255), rgb(35, 105, 255));
+}
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+button {
+    border: none;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
